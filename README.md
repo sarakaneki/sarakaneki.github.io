@@ -1,7 +1,11 @@
-# sarakaneki.github.io
+<h1 align="center">Hi 👋, I'm Sara</h1>
+<h3 align="center">A student from Sweden, living in Japan.</h3>
 
-My personal website.
+- 🔭 I’m currently working on **my resume website, done in HTML, CSS and Javascript.** I've gotten some help with templates to make this, but I'm planning to make it completely my own project.
 
-# Purpose of this code is to showcase my skills in HTML and CSS.
+- 🌱 I’m currently learning **everything!** There's a lot I don't know yet, and there are some parts of this code that I don't understand yet.
 
-# Most of the code I've written here is stuff I've learned through the Odin Project, Jonas Schmedtmann and Angela Yu.
+- 📫 How to reach me **sarasj0410@gmail.com**
+
+<p align="left">
+</p>

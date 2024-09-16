@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
     <title>Sara Kaneki's Resume</title>
   </head>
   <body>
@@ -20,22 +21,17 @@
         <div class="header_menu_container">
           <ul class="download_print_buttons horizontal_list">
             <li>
-              <a href="#"
-                ><span class="icon entypo-download"></span>Download CV</a
-              >
-            </li>
-            <li>
-              <a href="#"><span class="icon entypo-print"></span>Print CV</a>
+              <a href="#" class="top_menu" onclick="printPage()"> Print CV </a>
             </li>
           </ul>
           <div class="clear"></div>
           <ul class="header_menu horizontal_list">
-            <li><a class="no_border purple" href="#">Profile</a></li>
+            <li><a href="#">Profile</a></li>
+            <!-- <li><a class="no_border purple" href="#">Profile</a></li> -->
             <li><a href="#">Education</a></li>
             <li><a href="#">Skills</a></li>
             <li><a href="#">Work Experience</a></li>
-            <li><a href="#">Featured Projects</a></li>
-            <li><a href="#">Awards</a></li>
+            <li><a href="#">Projects</a></li>
           </ul>
         </div>
       </div>
@@ -53,8 +49,12 @@
         <div class="hello_content">
           <h2>Hello!</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae totam
-            earum fuga incidunt maxime tempore unde neque minima aliquam? Harum!
+            My name is Sara! I grew up in Sweden but currently live in Osaka,
+            Japan, where I study things like law, anthropology and political
+            science. I have a strong interest in IT and has spent most of my
+            free time in my university years studying it; I now have the Comptia
+            A+ and Network+ certification and I am working my way through Python
+            basics in my free time.
           </p>
         </div>
         <div class="contact_details_content">
@@ -64,9 +64,8 @@
           <p class="purple">Email:</p>
           <p>sarasj0410@gmail.com</p>
           <p class="purple">Adress:</p>
-          <p>Someplace, 5</p>
           <p>Osaka, Japan</p>
-          <p>23001</p>
+          <p>Relocating to Dublin, Ireland in 2025</p>
         </div>
 
         <div class="get_social_content">
@@ -87,10 +86,8 @@
         <div class="block">
           <h2>A few words about me</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-            eveniet facere dicta consectetur commodi obcaecati! Quaerat sit non
-            voluptas dolorum quis, in eum et recusandae, facere soluta libero
-            odio?
+            4th year student at Doshisha University, lover of foreign languages,
+            budding IT professional, baker, vino, runner.
           </p>
         </div>
         <div class="horizontal_line">
@@ -104,12 +101,12 @@
           <h2>Philosophy</h2>
           <div class="philosophy_content">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              commodi quidem laborum deserunt dolor deleniti distinctio ex,
-              expedita veniam facere mollitia architecto tempore voluptate quae
-              doloremque provident temporibus quas repudiandae labore cum
-              voluptas repellendus quasi? Sapiente est, sunt eaque iste eligendi
-              consequatur velit suscipit rem neque a ut adipisci molestiae?
+              "My philosophy is that anything can be learned, and life itself is
+              a continuous journey of growth. I’m naturally curious, and I
+              believe that learning enriches life, making it both fun and
+              meaningful. If there's something I don't know, I see it not as a
+              shortcoming, but as an opportunity for discovery. With effort and
+              persistence, there’s nothing that is impossible.
             </p>
             <ul>
               <li>Curious</li>
@@ -131,17 +128,20 @@
         <div class="last block">
           <h2>Interests & Hobbies</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
-            aspernatur minima dolores, sit repellendus quos.
+            In my free time, I like to spend time outdoors or learn new things.
+            For example, I like to...
           </p>
           <ul>
-            <li>Visiting new places</li>
-            <li>Meeting people</li>
-            <li>Having new experiences</li>
-            <li>Hiking and Biking</li>
-            <li>Web Developing</li>
-            <li>Computer Gamming</li>
-            <li>Manga and Anime</li>
+            <li>Run (I'm running the Nara Marathon in December this year!)</li>
+            <li>Hike (I'm very familiar with the mountains in Japan!)</li>
+            <li>Read (My favorite book this year is "Stolen Focus")</li>
+            <li>
+              Drink craft beer and wine (I love a good Hazy IPA and a Riesling!)
+            </li>
+            <li>
+              Bake (I bake at least once a week, a lot of it being sourdough
+              bread)
+            </li>
           </ul>
         </div>
       </div>
