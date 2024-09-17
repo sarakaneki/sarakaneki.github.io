@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **everything!** There's a lot I don't know yet, and there are some parts of this code that I don't understand yet.
 
-- 📫 How to reach me **sarasj0410@gmail.com**
+- 📫 Reach me on my <a href="https://www.linkedin.com/in/sara-kaneki-415473252/" target="_blank">LinkedIn!</a>
 
 <p align="left">
 </p>
