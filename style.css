@@ -1,4 +1,3 @@
-
 /* Utils */
 
 .clear {
@@ -11,8 +10,9 @@
 }
 
 .block {
-  margin: 25px 30px;
+  margin: 20px 25px;
 }
+
 .block h1 {
   margin-left: -5px;
   font-weight: 200;
@@ -208,7 +208,7 @@ li:before {
 .header_menu_container .top_menu {
   font-weight: 400;
   font-style: normal;
-  color: #000000
+  color: #000000;
 }
 
 .header_menu {
@@ -248,7 +248,6 @@ li:before {
   overflow: hidden;
 }
 
-
 .profile_frame img {
   width: 100%;
   height: 260; /* Keeps the image proportional */
@@ -257,26 +256,26 @@ li:before {
 
 /* Remove unnecessary styles */
 .profile_picture {
-  display: none; 
+  display: none;
 }
-
 
 .hello_content,
 .contact_details_content {
   margin-top: 25px;
 }
 
+.contact_details_content p {
+  line-height: 8px;
+}
+
 .hello_content {
   width: 230px;
 }
-.contact_details_content h2 + p.#1c2e4a {
+
+.contact_details_content h2 {
   margin-top: 10px;
-}
-.contact_details_content p {
-  margin: 0;
-}
-.contact_details_content p.#1c2e4a {
-  margin-top: 25px;
+  margin-bottom: 16px; /* Match this value to the other h2 elements */
+  color: #1c2e4a;
 }
 
 .special_button {
@@ -296,32 +295,19 @@ li:before {
   height: 40px;
   position: absolute;
   z-index: 2;
-  font: 18px "Lato", Helvetica, sans-serif
+  font: 18px "Lato", Helvetica, sans-serif;
   margin: 0;
   padding: 16px 0 0;
   top: -4px;
   bottom: 0px;
 }
 
-
-.get_social_content {
-  margin-top: 15px;
-}
 .get_social_content h2 {
   margin-bottom: 8px;
 }
-.social_icons {
-  margin-left: -8px;
-}
-.social_icons a {
-  font-size: 35px;
-  text-decoration: none;
-  color: #000507;
-  padding: 0;
-  padding: 0 5px;
-}
-.social_icons a span.invisible {
-  display: none;
+
+.get_social_content h2 {
+  margin-bottom: 16px; /* Match this value to the other h2 elements */
 }
 
 .footer_name {
@@ -350,14 +336,29 @@ li:before {
 }
 
 .philosophy_content {
-  margin-top: 20px;
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  justify-content: space-between; /* Adjust spacing between items */
 }
+
 .philosophy_content p {
-  margin: 0;
-  width: 370px;
-  float: left;
+  margin-right: 20px; /* Space between paragraph and list */
+  line-height: 1.5; /* Adjust line-height if needed */
+  margin-top: 0;
 }
+
 .philosophy_content ul {
-  float: left;
-  padding-left: 40px;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  list-style: none; /* Remove default list styling */
+  display: flex;
+  flex-direction: column; /* Ensure list items are stacked vertically */
+  justify-content: flex-start; /* Align list items to the top */
+}
+
+.philosophy_content ul li {
+  margin-bottom: 10px; /* Space between list items */
+  font-size: 14px; /* Adjust font size */
+  white-space: nowrap;
+  line-height: 1; /* Adjust line-height for consistency */
 }
