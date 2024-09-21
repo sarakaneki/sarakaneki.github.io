@@ -362,3 +362,15 @@ li:before {
   white-space: nowrap;
   line-height: 1; /* Adjust line-height for consistency */
 }
+
+/* EDUCATION PAGE */
+
+.education_header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.education_main {
+  display: flex;
+  justify-content: flex-start;
+}
